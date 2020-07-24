@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Zebra</title>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+	  <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+  <svg style="display: none">
+    <symbol id ="facebook" viewBox="0 0 14.406 30.38">
+       <path id="facebook_icon" data-name="facebook icon" class="cls-1" d="M964.714,2402.69v4.18H961.6v5.12h3.111v15.21h6.392v-15.21h4.286s0.4-2.45.6-5.13h-4.859v-3.5a1.5,1.5,0,0,1,1.386-1.23H976v-5.33h-4.734C964.555,2396.8,964.714,2401.93,964.714,2402.69Z" transform="translate(-961.594 -2396.81)"/>
+    </symbol>
+
+     <symbol id ="twitter" viewBox="0 0 44 30.38">
+       <path id="twitter" class="cls-1" d="M1063.01,2410.32c2.47-.21,4.14-1.33,4.79-2.86a7.8,7.8,0,0,1-5.19.57c-0.07-.35-0.15-0.7-0.23-1-1.17-4.3-5.15-7.75-9.33-7.33,0.34-.13.68-0.27,1.02-0.38,0.46-.16,3.16-0.6,2.73-1.56-0.36-.84-3.65.63-4.27,0.83,0.82-.31,2.17-0.84,2.32-1.79a6.543,6.543,0,0,0-3.44,1.64,2.485,2.485,0,0,0,.66-1.31c-3.35,2.14-5.3,6.46-6.88,10.66a16.6,16.6,0,0,0-3.34-2.69,87.157,87.157,0,0,0-11.28-4.98c-0.16,1.72.85,4.02,3.76,5.55a9.078,9.078,0,0,0-2.71.32c0.38,1.98,1.61,3.61,4.93,4.4a4.03,4.03,0,0,0-3.02,1.19,5.109,5.109,0,0,0,5.42,2.66c-3.37,1.46-1.37,4.16,1.37,3.76a11.637,11.637,0,0,1-16.31.44c11.07,15.14,35.15,8.95,38.73-5.63a6.649,6.649,0,0,0,5.25-1.99A10.671,10.671,0,0,1,1063.01,2410.32Z" transform="translate(-1024 -2396.81)"/>
+    </symbol>
+
+     <symbol id ="rss" viewBox="0 0 30.37 30.38">
+       <path id="rss" class="cls-1" d="M1114.09,2420.29a4.008,4.008,0,0,1,.01,5.69h-0.01a4.04,4.04,0,0,1-6.89-2.84,4.048,4.048,0,0,1,1.19-2.85h0a4,4,0,0,1,2.85-1.17A4.037,4.037,0,0,1,1114.09,2420.29Zm0,0h0Zm-5.7,5.69h0Zm-1.18-18.84v5.8a14.254,14.254,0,0,1,14.22,14.24h0v0.02h5.83A20.11,20.11,0,0,0,1107.21,2407.14Zm0.01-10.34v5.81a24.61,24.61,0,0,1,24.56,24.59h5.82A30.455,30.455,0,0,0,1107.22,2396.8Z" transform="translate(-1107.22 -2396.81)"/>
+    </symbol>
+  </svg>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-content__column">
+                    <div class="header-logo">
+                      <a href="#"><img src="img/header-icons/logo.png"></a>
+                    </div>
+                </div>
+
+                 <div class="header-content__column">
+                    <nav class="header-content__menu">
+                      <div class="burger" id="burger-btn">
+                        <span></span>
+                      </div>
+
+                        <ul class="header-content__list">
+                           <div class="burger-clone">
+                       
+                      </div>
+
+                            <li class="header-content__item"><a href="#" class="header-content__link">Home </a></li>                      
+                            <li class="header-content__item under-menu"><a href="#" class="header-content__link">Products </a>
+
+                                <div class="header-content__item-menu">
+                                    <div class="item-menu__column menu__column-zebra">
+                                        <div class="item-menu__column-zebra"><img class="item-menu__column-img1"  src="img/header-icons/menu-icon.png"></div>
+                                        <div class="item-menu__column-tie">  <img class="item-menu__column-img2" src="img/header-icons/tie.png"></div>
+                                      
+                                    </div>
+                                     <div class="item-menu__column">
+                                         <a href="#" class="item-menu__column-link">Asics shoes</a>
+                                          <a href="#" class="item-menu__column-link">Nike air free</a>
+                                           <a href="#" class="item-menu__column-link">Sports Jerseys</a>
+                                            <a href="#" class="item-menu__column-link">Nike Air Max</a>
+                                             <a href="#" class="item-menu__column-link">Nike Shox shoes</a>
+                                              <a href="#" class="item-menu__column-link">Nike AF1 shoes</a>
+                                               <a href="#" class="item-menu__column-link">Asics shoes</a>
+                                                <a href="#" class="item-menu__column-link">Nike air free</a>
+                                     </div>
+
+                                       <div class="item-menu__column">
+                                         <a href="#" class="item-menu__column-link">Asics shoes</a>
+                                          <a href="#" class="item-menu__column-link">Nike air free</a>
+                                           <a href="#" class="item-menu__column-link">Sports Jerseys</a>
+                                            <a href="#" class="item-menu__column-link">Nike Air Max</a>
+                                             <a href="#" class="item-menu__column-link">Nike Shox shoes</a>
+                                              <a href="#" class="item-menu__column-link">Nike AF1 shoes</a>
+                                               <a href="#" class="item-menu__column-link">Asics shoes</a>
+                                                <a href="#" class="item-menu__column-link">Nike air free</a>
+                                     </div>
+                                     
+                                </div>
+
+
+                            </li>
+                            <li class="header-content__item"><a href="#" class="header-content__link">Shopping</a></li>
+                            <li class="header-content__item"><a href="#" class="header-content__link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                 <div class="header-content__column card-column">
+                   <div class="header-content__card">
+                       <img src="img/header-icons/header-card.png">
+                       <span>$35.00</span>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="top">
+        <div class="top__content">
+            <div class="top__content-subtitle">Introducing</div>
+             <div class="top__content-title">Wild eyes</div>
+        </div>
+
+        <div class="top-slider">
+            <div class="top-slider__item" style="background-image: url(img/header-icons/slider-bg.jpg);">
+                
+            </div>
+
+              <div class="top-slider__item" style="background-image: url(img/header-icons/slider-bg.jpg);">
+                
+            </div>
+
+
+              <div class="top-slider__item" style="background-image: url(img/header-icons/slider-bg.jpg);">
+                
+            </div>
+
+              <div class="top-slider__item" style="background-image: url(img/header-icons/slider-bg.jpg);">
+                
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="promos">
+        <div class="container">
+            <div class="promos__content">
+                <div class="promos-item promos--1">
+                    <div class="promos-item__title">Activitee</div>
+                       <div class="promos-item__subtitle">T shirts from  dribb ble...</div>
+                       <div class="promos-item__price">$25.00</div>
+                       <img class="promos-item__tshirt" src="img/t-shirt.png">
+                </div>
+
+
+                <div class="promos-item promos--2">
+                    <div class="promos-item__title">Ampersan dwich<br>  Tee</div>
+                     
+                       <div class="promos-item__price">$18.00</div>
+                       <img class="promos-item__tshirt2" src="img/t-shirt2.png">
+                </div>
+
+
+                <div class="promos-item promos--3">
+                    <div class="promos-item__title">Bally Rog er Glow  Tee</div>
+                       <div class="promos-item__subtitle">dribb <br>ble...</div>
+                       <div class="promos-item__price">$25.00</div>
+                       <img class="promos-item__tshirt3" src="img/t-shirt3.png">
+                </div>
+
+
+                <div class="promos-item promos--4">
+                    <div class="promos-item__title title-flipped">50% </div>
+                       <div class="promos-item__subtitle subtitle4" >OFF</div>
+                       <div class="promos-item__letsgo"> lets go</div>
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <section class="categories">
+   <div class="categories__title">Categories</div>
+
+
+<div class="categories-inner">
+
+   <div class="ellipse-item ellipse-item1"></div>
+
+    <div class="ellipse-item ellipse-item2">
+      <img src="img/ellipse-item1.png">
+    </div>
+
+
+     <div class="ellipse-item ellipse-item3">
+      <img src="img/ellipse-item2.png">
+    </div>
+
+
+     <div class="ellipse-item ellipse-item4">
+      <img src="img/ellipse-item-under.png">
+    </div>
+
+
+     <div class="ellipse-item ellipse-item5">
+      <img src="img/ellipse-item3.png">
+    </div>
+
+
+     <div class="ellipse-item ellipse-item6">
+      <img src="img/ellipse-item1.png">
+    </div>
+
+     <div class= "ellipse-item ellipse-item7">
+      <img src="img/ellipse-item2.png">
+    </div>
+
+     <div class="ellipse-item  ellipse-item8">
+      <img src="img/ellipse-item4.png">
+    </div>
+
+     <div class="ellipse-item ellipse-item9">
+     
+    </div>   
+
+    
+    </div>
+
+ </section>
+
+
+
+ <section class="jeans">
+   <div class="container">
+     <div class="jeans__inner">
+      <img class="banner" src="img/banner.png">
+       <div class="slider-big">
+         <div class="slider-big__item">
+
+             <div class="slider-big__wrapper">
+             <div class="slider-big__content">
+           <div class="slider-big__title">Mens Levis Jeans-071</div>
+            <div class="slider-big__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised </div>
+            <div class="slider-big__rate">
+              <div class="slider-big__price">Rate: <span>$ 61.99</span></div>
+                <div class="slider-big__btn"><a id="card-btn__js" href="#"><img src="img/card.png"> Add to cart</a></div>
+            </div>
+          </div>
+
+          <div class="slider-big__jeans">
+           
+            <img src="img/jeans-large.png">
+          </div>
+             </div>
+         </div>
+
+
+          <div class="slider-big__item">
+
+             <div class="slider-big__wrapper">
+             <div class="slider-big__content">
+           <div class="slider-big__title">Mens Levis Jeans-071</div>
+            <div class="slider-big__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised </div>
+            <div class="slider-big__rate">
+              <div class="slider-big__price">Rate: <span>$ 61.99</span></div>
+                 <div class="slider-big__btn"><a id="card-btn__js" href="#"><img src="img/card.png"> Add to cart</a></div>
+            </div>
+          </div>
+
+          <div class="slider-big__jeans">
+            <img src="img/jeans-large.png">
+          </div>
+             </div>
+         </div>
+
+
+          <div class="slider-big__item">
+
+             <div class="slider-big__wrapper">
+             <div class="slider-big__content">
+           <div class="slider-big__title">Mens Levis Jeans-071</div>
+            <div class="slider-big__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised </div>
+            <div class="slider-big__rate">
+              <div class="slider-big__price">Rate: <span>$ 61.99</span></div>
+                 <div class="slider-big__btn"><a id="card-btn__js" href="#"><img src="img/card.png"> Add to cart</a></div>
+            </div>
+          </div>
+
+          <div class="slider-big__jeans">
+            <img src="img/jeans-large.png">
+          </div>
+             </div>
+         </div>
+
+
+          <div class="slider-big__item">
+
+             <div class="slider-big__wrapper">
+             <div class="slider-big__content">
+           <div class="slider-big__title">Mens Levis Jeans-071</div>
+            <div class="slider-big__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised </div>
+            <div class="slider-big__rate">
+              <div class="slider-big__price">Rate: <span>$ 61.99</span></div>
+              <div class="slider-big__btn"><a id="card-btn__js" href="#"><img src="img/card.png"> Add to cart</a></div>
+            </div>
+          </div>
+
+          <div class="slider-big__jeans">
+            <img src="img/jeans-large.png">
+          </div>
+             </div>
+         </div>
+
+
+          <div class="slider-big__item">
+
+             <div class="slider-big__wrapper">
+             <div class="slider-big__content">
+           <div class="slider-big__title">Mens Levis Jeans-071</div>
+            <div class="slider-big__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised </div>
+            <div class="slider-big__rate">
+              <div class="slider-big__price">Rate: <span>$ 61.99</span></div>
+                 <div class="slider-big__btn"><a id="card-btn__js" href="#"><img src="img/card.png"> Add to cart</a></div>
+            </div>
+          </div>
+
+          <div class="slider-big__jeans">
+            <img src="img/jeans-large.png">
+          </div>
+             </div>
+         </div>
+       </div>
+
+
+       <div class="slider-small">
+         <div class="slider-small__item">
+           <div class="slider-small__content">
+             <img src="img/jeans-small.jpg">
+           </div>
+           <div class="slider-small__number">
+             Levis Jeans-071
+           </div>
+         </div>
+
+
+          <div class="slider-small__item">
+           <div class="slider-small__content">
+             <img src="img/jeans-small.jpg">
+           </div>
+           <div class="slider-small__number">
+             Levis Jeans-071
+           </div>
+         </div>
+
+
+          <div class="slider-small__item">
+           <div class="slider-small__content">
+             <img src="img/jeans-small.jpg">
+           </div>
+           <div class="slider-small__number">
+             Levis Jeans-071
+           </div>
+         </div>
+
+
+          <div class="slider-small__item">
+           <div class="slider-small__content">
+             <img src="img/jeans-small.jpg">
+           </div>
+           <div class="slider-small__number">
+             Levis Jeans-071
+           </div>
+         </div>
+
+
+          <div class="slider-small__item">
+           <div class="slider-small__content">
+             <img src="img/jeans-small.jpg">
+           </div>
+           <div class="slider-small__number">
+             Levis Jeans-071
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer__logo">
+       <img src="img/header-icons/logo.png">
+      </div>
+      <div class="footer-icons">
+        <a class="footer-icons__link" href="#"> <svg class="icon-svg"><use xlink:href="#facebook"></use></svg></a>  
+           <a class="footer-icons__link" href="#"> <svg class="icon-svg"><use xlink:href="#twitter"></use></svg></a>  
+            <a class="footer-icons__link" href="#"> <svg class="icon-svg"><use xlink:href="#rss"></use></svg></a>  
+      </div>
+    </div>
+
+    <div class="footer-copyright">Copyright © 2013  ALL rights reserved.</div>
+  </div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
