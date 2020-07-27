@@ -120,6 +120,22 @@ burgerClone.addEventListener('click', function(){
   body.classList.remove('flow');
 })
 
+
+
+let anchors = document.querySelectorAll('a[href*="#"]').forEach(item =>{
+  item.addEventListener('click', function(e){
+        e.preventDefault();
+        anchorId = this.getAttribute('href');
+        burgerMenu.classList.remove('active');
+          body.classList.remove('flow');
+
+        document.querySelector(anchorId).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        })
+  })
+})
+
 });
 
 
