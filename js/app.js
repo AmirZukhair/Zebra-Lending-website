@@ -80,21 +80,7 @@ $('.slider-small').slick({
 
 });
 
-/*
 
-let btn = document.querySelector('#card-btn__js');
-
-
-btn.addEventListener('click', function(e){
-
- 
-     e.preventDefault();
-  btn.classList.toggle('active');
- 
- 
-
-})
-*/
 
 Array.from(document.querySelectorAll('#card-btn__js')).forEach(item => {
   item.onclick = (e) => {
@@ -118,7 +104,7 @@ burger.addEventListener('click', function(){
 burgerClone.addEventListener('click', function(){
   burgerMenu.classList.remove('active');
   body.classList.remove('flow');
-})
+});
 
 
 
@@ -132,9 +118,9 @@ let anchors = document.querySelectorAll('a[href*="#"]').forEach(item =>{
         document.querySelector(anchorId).scrollIntoView({
           behavior: 'smooth',
           block: 'start'
-        })
-  })
-})
+        });
+  });
+});
 
 });
 

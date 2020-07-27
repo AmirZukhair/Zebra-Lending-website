@@ -87,7 +87,7 @@ body{
 .header-content__item-menu::before{
 	content: "";
 	position: absolute;
-	background-image: url(img/header-icons/menu-shade.png);
+	background-image: url(../img/header-icons/menu-shade.png);
 	right: 0;
 	top: 0;
 	width: 347px;
